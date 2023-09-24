@@ -27,5 +27,5 @@ app.use(
 )
 
 app.listen(PORT, () => {
-  console.log(`Starting Proxy Server at ${URL}:${PORT}`)
+  console.log(`Starting Proxy Server at http://localhost:${PORT}`)
 })
